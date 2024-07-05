@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#card {
+    background-image: url(fundoinfo.jpg);
+    background-size: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 16px;
+    background-color: whitesmoke;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 275px;
+    height: 325px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px #000000aa;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: .9rem;
+    text-align: center;
+}
+
+.card button {
+    background-color: orange;
+    height: 37px;
+    border: none;
+    padding: 4px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 1.10rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.card button:hover {
+    background-color: orange;
+    transition: 0.5;
+    opacity: 0.7;
+}

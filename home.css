@@ -1,0 +1,24 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    background-image: url(fundooo.jpg);
+    background-size: 1930px;
+}
+
+#cabecalho {
+    width: 19%;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+#cabecalho .title {
+    font-size: 4rem;
+    color: black;
+}
+
+#cabecalho .descricao {
+    font-size: 1.75rem;
+    color: black;
+}
